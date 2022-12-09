@@ -1,6 +1,8 @@
 public struct HelloWorldPackage {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
+    public init() { }
+    
+    public func printMessage(message: String) {
+        print(message)
     }
 }
